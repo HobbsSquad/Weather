@@ -23,13 +23,13 @@ Ensures a strong, consistent delivery of data from sensor nodes to the central s
 <hr>
 <h3>Software</h3>
 <h4>Central Server</h4><br>
-<b>Sensor Node Communication:</b><br>
+<h5>Sensor Node Communication:</h5><br>
 Python IDE will be used write the code to control communications with the sensor nodes.<br>
 
-<b>Data Recording/Retrieval</b><br>
+<h5>Data Recording/Retrieval</h5><br>
 MySQL RDBMS will be used to store system parameters, information about the sensor nodes (increases flexibilty to add/subtract/move nodes without changing code), as well as historical environmental/weather data.<br>
 
-<b>Web App</b><br>
+<h5><b>Web App</b></h5><br>
 Apache will be used to serve up web pages.<br>
 HTML5 and PHP will be utilized to generate static and dynamic content, including retrieval of data from MySQL<br>
 

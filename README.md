@@ -22,7 +22,7 @@ Collects temperature and humidity information from a given position in, or near,
 Ensures a strong, consistent delivery of data from sensor nodes to the central server.  Will be strategically placed in the home as needed to receive signals from the sensor nodes and relay out to other relays and/or the central server.
 <hr>
 <h3>Software</h3>
-<b>Central Server</b><br>
+<h4>Central Server</h4><br>
 <b>Sensor Node Communication:</b><br>
 Python IDE will be used write the code to control communications with the sensor nodes.<br>
 
@@ -36,4 +36,12 @@ HTML5 and PHP will be utilized to generate static and dynamic content, including
 <b>NOAA Data Harvesting</b><br>
 Undecided.  Need more research. Possibly Python, maybe PHP? Goal is to periodically pull select data from NOAA and store in MySQL for publishing and analysis.<br>
 
+<h4>Sensor Nodes</h4>
+Arudino IDE will be used to code retievel of sensor values and transmission via RF<br>
 
+<h4>Wireless Relay</h4>
+Arudino IDE will be used to code receipving and retransmission of data via RF<br>
+
+<hr>
+<h3>Future Enhancements/Extensions</h3><br>
+<list><li>Move DB into the cloud (AWS)</li>

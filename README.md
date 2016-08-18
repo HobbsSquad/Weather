@@ -13,7 +13,7 @@ Collects input from multiple sensor nodes (see below). Utilizes internet connect
 
 <B>Role:</b>  Sensor Node<br>
 <B>Hardware:</b> Arduino, temperature/humidity sensor, RF transmitter, enclosure<br>
-<B>Funcition:</b><br>
+<B>Function:</b><br>
 Collects temperature and humidity information from a given position in, or near, the house.  Wirelessly transmits the data to the central server. Exterior node(s) may also measure and transmit barmetric pressure, wind speed/direction, or other conditions. Nodes will be strategically placed in and around the house and need to be discrete and out of harm's way.
 
 <b>Role:</b>  Wireless Relay<br>
@@ -36,10 +36,10 @@ HTML5 and PHP will be utilized to generate static and dynamic content, including
 <h5>NOAA Data Harvesting</h5>
 Undecided.  Need more research. Possibly Python, maybe PHP? Goal is to periodically pull select data from NOAA and store in MySQL for publishing and analysis.<br>
 
-<h5>Sensor Nodes</h5>
+<h4><b>Sensor Nodes</h4></b>
 Arudino IDE will be used to code retievel of sensor values and transmission via RF<br>
 
-<h5>Wireless Relay</h5>
+<h4><b>Wireless Relay</h4></b>
 Arudino IDE will be used to code receipving and retransmission of data via RF<br>
 
 <hr>

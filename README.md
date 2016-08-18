@@ -6,9 +6,9 @@ Ultimate goal is to have a system of sensors gathering localized envionmental da
 <hr>
 <h3>Hardware</h3>
 Final hardware choices, topology and construction is still in flux (as of 8/18/2016).  Here's the general idea:<br><br>
-<B>Role:</b> Central Server
-<B>Hardare:</b> Raspberry Pi
-<B>Function:</b>
+<B>Role:</b> Central Server<br>
+<B>Hardare:</b> Raspberry Pi<br>
+<B>Function:</b><br>
 Collects input from multiple sensor nodes (see below). Utilizes internet connection to harvest current conditions and forecast data from NOAA.  Records data collected from local sensor nodes and possibly NOAA data into a central database (most likely MySQL running on the Pi). Use Apache and a web app to serve up user-friendly web pages so that any HTTP-capable device connected to the home network can easily access the information collected by the server.<br>
 
 <B>Role:</b>  Sensor Node<br>
@@ -20,5 +20,10 @@ Collects temperature and humidity information from a given position in, or near,
 <B>Hardware:</b> Arduino, RF Receiver, RF transmitter, enclosure<br>
 <b>Function:</b><br
 Ensures a strong, consistent delivery of data from sensor nodes to the central server.  Will be strategically placed in the home as needed to receive signals from the sensor nodes and relay out to other relays and/or the central server.
+<hr>
+<h3>Software</h3>
+<b>Central Server</b><br>
+<b>Sensor Node Communication:</b><br>
+Python IDE will be used write the code to control communications with the sensor nodes.<br>
 
 

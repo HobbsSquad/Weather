@@ -9,7 +9,7 @@ Final hardware choices, topology and construction is still in flux (as of 8/18/2
 <B>Role:</b> Central Server
 <B>Hardare:</b> Raspberry Pi
 <B>Function:</b>
-Collects input from multiple sensor nodes (see below). Utilizes internet connection to harvest current conditions and forecast data from NOAA.  Records data collected from local sensor nodes and possibly NOAA data into a central database (most likely MySQL running on the Pi). Use Apache and a web app to serve up user-friendly web pages so that any HTTP-capable device connected to the home network can easily access the information collected by the server.<br><br>
+Collects input from multiple sensor nodes (see below). Utilizes internet connection to harvest current conditions and forecast data from NOAA.  Records data collected from local sensor nodes and possibly NOAA data into a central database (most likely MySQL running on the Pi). Use Apache and a web app to serve up user-friendly web pages so that any HTTP-capable device connected to the home network can easily access the information collected by the server.<br>
 
 <B>Role:</b>  Sensor Node<br>
 <B>Hardware:</b> Arduino, temperature/humidity sensor, RF transmitter, enclosure<br>

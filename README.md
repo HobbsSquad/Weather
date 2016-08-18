@@ -18,7 +18,7 @@ Collects temperature and humidity information from a given position in, or near,
 
 <b>Role:</b>  Wireless Relay<br>
 <B>Hardware:</b> Arduino, RF Receiver, RF transmitter, enclosure<br>
-<b>Function:</b><br
+<b>Function:</b><br>
 Ensures a strong, consistent delivery of data from sensor nodes to the central server.  Will be strategically placed in the home as needed to receive signals from the sensor nodes and relay out to other relays and/or the central server.
 <hr>
 <h3>Software</h3>

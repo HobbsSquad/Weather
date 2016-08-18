@@ -26,7 +26,7 @@ Ensures a strong, consistent delivery of data from sensor nodes to the central s
 <b>Sensor Node Communication:</b><br>
 Python IDE will be used write the code to control communications with the sensor nodes.<br>
 
-<b>Data Recording/Retrieval<b><br>
+<b>Data Recording/Retrieval</b><br>
 MySQL RDBMS will be used to store system parameters, information about the sensor nodes (increases flexibilty to add/subtract/move nodes without changing code), as well as historical environmental/weather data.<br>
 
 <b>Web App</b><br>

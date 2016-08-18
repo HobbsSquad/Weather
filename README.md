@@ -23,17 +23,17 @@ Ensures a strong, consistent delivery of data from sensor nodes to the central s
 <hr>
 <h3>Software</h3>
 <h4><b>Central Server</b></h4><br>
-<h5>Sensor Node Communication:</h5><br>
+<h5>Sensor Node Communication:</h5>
 Python IDE will be used write the code to control communications with the sensor nodes.<br>
 
-<h5>Data Recording/Retrieval</h5><br>
+<h5>Data Recording/Retrieval</h5>
 MySQL RDBMS will be used to store system parameters, information about the sensor nodes (increases flexibilty to add/subtract/move nodes without changing code), as well as historical environmental/weather data.<br>
 
-<h5>Web App</h5><br>
+<h5>Web App</h5>
 Apache will be used to serve up web pages.<br>
 HTML5 and PHP will be utilized to generate static and dynamic content, including retrieval of data from MySQL<br>
 
-<h5>NOAA Data Harvesting</h5><br>
+<h5>NOAA Data Harvesting</h5>
 Undecided.  Need more research. Possibly Python, maybe PHP? Goal is to periodically pull select data from NOAA and store in MySQL for publishing and analysis.<br>
 
 <h5>Sensor Nodes</h5>
@@ -48,5 +48,6 @@ Arudino IDE will be used to code receipving and retransmission of data via RF<br
 <li>Move DB into the cloud (AWS)</li>
 <li>Move web app into the cloud</li>
 <li>Add analytics, charts & graphs to evaluate environmental changes over time</li>
-<li>Tie local senser nodes inot HVAC system to eliminte hot spots and cold spots and increase energy efficiency</li>
+<li>Tie local senser nodes into HVAC system control to eliminate hot spots and cold spots and increase energy efficiency</li>
+<li>Use Alexa/Echo to deliver "house status report", and serve other envrionmental data via voice command</li>
 </list>

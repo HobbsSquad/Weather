@@ -22,7 +22,7 @@ Collects temperature and humidity information from a given position in, or near,
 Ensures a strong, consistent delivery of data from sensor nodes to the central server.  Will be strategically placed in the home as needed to receive signals from the sensor nodes and relay out to other relays and/or the central server.
 <hr>
 <h3>Software</h3>
-<h4><b>Central Server</b></h4><br>
+<h4><b>Central Server</b></h4>
 <h5>Sensor Node Communication:</h5>
 Python IDE will be used write the code to control communications with the sensor nodes.<br>
 

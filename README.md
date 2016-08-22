@@ -12,7 +12,7 @@ Final hardware choices, topology and construction is still in flux (as of 8/18/2
 Collects input from multiple sensor nodes (see below). Utilizes internet connection to harvest current conditions and forecast data from NOAA.  Records data collected from local sensor nodes and possibly NOAA data into a central database (most likely MySQL running on the Pi). Use Apache and a web app to serve up user-friendly web pages so that any HTTP-capable device connected to the home network can easily access the information collected by the server.<br>
 
 <B>Role:</b>  Sensor Node<br>
-<B>Hardware:</b> Arduino Nano clone, DHT22, ESP8266 WiFi shield, enclosure<br>
+<B>Hardware:</b> Arduino Nano clone, DHT22 temp/humdity sensor, ESP8266 WiFi shield, enclosure<br>
 <B>Function:</b><br>
 Collects temperature and humidity information from a given position in, or near, the house.  Wirelessly transmits the data to the central server. Exterior node(s) may also measure and transmit barmetric pressure, wind speed/direction, or other conditions. Nodes will be strategically placed in and around the house and need to be discrete and out of harm's way.
 
@@ -38,7 +38,7 @@ Undecided.  Need more research. Possibly Python, maybe PHP? Goal is to periodica
 
 <h4><b>Sensor Nodes</h4></b>
 Arudino IDE will be used to code retievel of sensor values and transmission via WiFi<br>
-Libraries: ESP8266WiFi<br>
+<b>Libraries:</b> ESP8266WiFi<br>
 
 <h4><b>Wireless Relay</h4></b>
 Arudino IDE will be used to code receipving and retransmission of data via RF<br>

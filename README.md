@@ -38,7 +38,7 @@ Undecided.  Need more research. Possibly Python, maybe PHP? Goal is to periodica
 
 <h4><b>Sensor Nodes</h4></b>
 Arudino IDE will be used to code retievel of sensor values and transmission via WiFi<br>
-<b>Libraries:</b> ESP8266WiFi<br>
+<b>Libraries:</b> dht, ESP8266WiFi<br>
 
 <h4><b>Wireless Relay</h4></b>
 Arudino IDE will be used to code receipving and retransmission of data via RF<br>

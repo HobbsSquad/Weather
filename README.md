@@ -37,7 +37,8 @@ HTML5 and PHP will be utilized to generate static and dynamic content, including
 Undecided.  Need more research. Possibly Python, maybe PHP? Goal is to periodically pull select data from NOAA and store in MySQL for publishing and analysis.<br>
 
 <h4><b>Sensor Nodes</h4></b>
-Arudino IDE will be used to code retievel of sensor values and transmission via RF<br>
+Arudino IDE will be used to code retievel of sensor values and transmission via WiFi<br>
+Libraries: ESP8266WiFi<br>
 
 <h4><b>Wireless Relay</h4></b>
 Arudino IDE will be used to code receipving and retransmission of data via RF<br>
